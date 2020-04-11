@@ -132,10 +132,10 @@ form.error input{
 }
 
 .animate{
-    animation: 0.5s linear animate;
+    animation: 0.5s linear slidein;
 }
 
-@keyframes animate {
+@keyframes slidein {
     from{
         transform: translateX(-200%);
     }
